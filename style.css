@@ -30,6 +30,12 @@ ul {
   list-style: none;
 }
 
+figcaption {
+  padding-top: 8px;
+  color: white;
+  font-size: 14px;
+}
+
 body {
   background-color: #121214;
   background-image: var(--bg);
