@@ -31,10 +31,10 @@ function creatCard(date, day, games) {
 }
 
 document.querySelector('#cards').innerHTML =
-    creatCard("24/11", "quinta", creatGame('Suíça', '07:00', 'Camarões') + creatGame('Uruguai', '10:00', 'CoreiaSul') + 
-    creatGame('Portugal', '13:00', 'Camarões') + creatGame('Brasil', '16:00', 'Servia')) +
+    creatCard("24/11", "quinta", creatGame('Suíça', '07:00', 'Camarões') + creatGame('Uruguai', '10:00', 'Coreia') + 
+    creatGame('Portugali', '13:00', 'Camarões') + creatGame('Brasil', '16:00', 'Servia')) +
 
-    creatCard("28/11", "segunda", creatGame('Camarões', '07:00', 'Servia') + creatGame('CoreiaSul', '10:00', 'Gana') +
-    creatGame('Brasil', '13:00', 'Suíça') + creatGame('Portugal', '16:00', 'Uruguai')) +
+    creatCard("28/11", "segunda", creatGame('Camarões', '07:00', 'Servia') + creatGame('Coreia', '10:00', 'Gana') +
+    creatGame('Brasil', '13:00', 'Suíça') + creatGame('Portugali', '16:00', 'Uruguai')) +
 
     creatCard("02/12", "sexta", creatGame('Brasil', '16:00', 'Camarões'))
