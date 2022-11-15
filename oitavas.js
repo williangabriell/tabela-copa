@@ -1,11 +1,11 @@
-function creatGame(player1, hour, player2) {
+function creatGame(player1, hour, player2, definir) {
     return `
     <li>
-            <figure><img src="./assets/icon-${player1}.svg"alt="Bandeira do ${player1}" title=${player1}> 
-            <figcaption>${player1}</figcaption></figure>
+            <figure><img src="./assets/icon-${definir}.svg"alt="Bandeira do ${definir}" title=${definir}> 
+            <figcaption>${definir}</figcaption></figure>
             <strong>${hour}</strong>
-            <figure><img src="./assets/icon-${player2}.svg" alt="Bandeira do ${player2}" title=${player2}> 
-            <figcaption>${player2}</figcaption></figure>
+            <figure><img src="./assets/icon-${definir}.svg" alt="Bandeira do ${definir}" title=${definir}> 
+            <figcaption>${definir}</figcaption></figure>
     </li>
     `
 }
