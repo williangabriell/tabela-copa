@@ -8,14 +8,14 @@
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
-  --bg: url()
+  --bg: url(./assets/bg-yellow.svg)
 }
 
 body.blue {
   --card-title-border-color: #338af3;
   --card-color-primary: #338af3;
   --card-bg-color: #202024;
-  --bg: url()
+  --bg: url(./assets/bg-blue.svg)
 }
 
 body.green {
@@ -37,7 +37,7 @@ figcaption {
 
 body {
   background-color: #121214;
-  background-image: var(--bg);
+/*  background-image: var(--bg);  utilizar fundo  vazio*/ 
   background-position: top center ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,25 +55,17 @@ body * {
 
 header {
   text-align: center; 
-  margin-bottom: 64px;
+  margin-bottom: 35px;
   
-}
-
-.tabs ul {
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-}
-
-.tabs li {
-  list-style: none;
-  margin: 5px;
-  display: inline;
+  font-family:"Roboto", sans-serif;
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 li a {
   
-  padding: 1px 10px;
+  padding: 1px 5px;
   margin: 0;
   border: 0px solid #f00;
   background: #903;
@@ -91,16 +83,14 @@ li a:hover {
 }
 
 #cards {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 .card {
   padding: 32px 23px;
   text-align: center;
-
   background: var(--card-bg-color);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
