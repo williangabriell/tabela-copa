@@ -61,19 +61,19 @@ header {
 
 .tabs ul {
   text-align: center;
-  margin: 30px;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
 }
 
 .tabs li {
   list-style: none;
-  margin: 30px;
+  margin: 5px;
   display: inline;
 }
 
 li a {
   
-  padding: 5px 10px;
+  padding: 1px 10px;
   margin: 0;
   border: 0px solid #f00;
   background: #903;
@@ -91,9 +91,9 @@ li a:hover {
 }
 
 #cards {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 20px;
 
 }
 
