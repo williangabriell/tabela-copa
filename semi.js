@@ -25,4 +25,4 @@ function creatCard(date, day, games) {
 
 document.querySelector('#cards').innerHTML =
     creatCard("13/12", "terça", creatGame("Argentina", "16:00", "Croácia")) +
-    creatCard("14/12", "quarta", creatGame("", "16:00", ""));
+    creatCard("14/12", "quarta", creatGame("França", "16:00", "Marrocos"));
