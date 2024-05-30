@@ -1,7 +1,7 @@
 <h1 align="center"> Tabela da Copa do Mundo </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Tabela da copa do mundo de 2022
 </p>
 
 <p align="center">
